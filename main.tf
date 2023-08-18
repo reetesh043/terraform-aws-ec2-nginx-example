@@ -53,7 +53,7 @@ resource "aws_default_vpc" "default" {}
 # Security Group
 
 resource "aws_security_group" "nginx_demo" {
-  name        = "demo_sg"
+  name        = "nginx_demo"
   description = "allow ssh on 22 & http on port 80"
   vpc_id      = aws_default_vpc.default.id
 
