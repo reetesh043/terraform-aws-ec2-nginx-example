@@ -5,12 +5,12 @@ variable "aws_region" {
 
 variable "aws_access_key" {
    description = "AWS User Access Key"
-   default = "AKIA52CZK6IOZHQ77Q6F"
+   default = "ENTER_YOUR_AWS_ACCESS_KEY"
 }
 
 variable "aws_secret_key" {
    description = "AWS User Secret Key"
-   default = "A67+gt+tGX8HO/mrFczO1AA7ebzKq/GEWWQPfH3P"
+   default = "ENTER_YOUR_AWS_SECRET_KEY"
 }
 
 variable "public_key_path" {
@@ -21,5 +21,5 @@ variable "public_key_path" {
 variable "key_name" {
     description = "Key to access the EC2 instance"
     type = string
-    default = "EC2-Demo"
+    default = "ENTER_NAME_OF_EC2_KEY_PAIR"
 }
