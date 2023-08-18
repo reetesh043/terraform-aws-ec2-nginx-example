@@ -1,15 +1,14 @@
-# terraform-ec2-nginx-example
-Using Terraform to Deploy Nginx Webserver on AWS EC2 Instance
+# Terraform Deployment of Nginx Webserver on AWS EC2
 
-## Overview
-This demonstration project showcases the deployment of an Nginx Webserver on AWS EC2 through Terraform. The project involves the provisioning of an Nginx instance on an AWS EC2 using user data, accompanied by the configuration of a requisite security group.
+## Project Overview
+This repository serves as a demonstration of deploying an Nginx Webserver on an AWS EC2 instance using Terraform. The primary focus of the project lies in the automated provisioning of an Nginx instance on AWS EC2 utilizing user data. Additionally, it encompasses the setup of a necessary security group to ensure a secure environment.
 
-## Instructions
-Follow these steps to effectively use the demo project:
+## Usage Instructions
+To effectively utilize this demonstration project, adhere to the following instructions:
 
-Initialize the project workspace by executing the command **terraform init**.
-Trigger the infrastructure provisioning process by running **terraform apply**. This action will establish a Virtual Private Cloud (VPC) housing Private and Public Subnets, along with a NAT Gateway and three EC2 instances.
-When you no longer require the resources, dismantle the infrastructure with the command **terraform destroy**.
+1. Start by initializing the project workspace. Execute the command **terraform init** to set up the necessary groundwork.
+2. Initiate the infrastructure provisioning procedure by executing **terraform apply**. This operation orchestrates the creation of a Virtual Private Cloud (VPC) containing Private and Public Subnets. Moreover, it establishes a NAT Gateway and deploys three EC2 instances.
+3. If and when the resources are no longer needed, execute **terraform destroy** to dismantle the entire infrastructure.
 
-### Note
-Please be mindful that the resources generated in this illustrative example might result in expenses. Thus, it is advisable to terminate the infrastructure if it is not needed anymore.
+## Important Consideration
+Keep in mind that the resources instantiated in this illustrative example might lead to incurring costs. It is strongly recommended to terminate the infrastructure if it ceases to be necessary. Your fiscal prudence is advised.
