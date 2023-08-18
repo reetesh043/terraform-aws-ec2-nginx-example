@@ -1,4 +1,6 @@
 .terraform
+.terraform/modules/*
+.terraform/providers/*
 terraform.tfstate
 terraform.tfstate.backup
 EC2-Demo.pem
